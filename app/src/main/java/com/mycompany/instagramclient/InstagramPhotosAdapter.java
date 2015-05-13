@@ -96,7 +96,7 @@ public class InstagramPhotosAdapter extends ArrayAdapter<InstagramPhoto> {
         viewHolder.tvTime.setText(s);
 
         DecimalFormat format = new DecimalFormat("#,###");
-        viewHolder.tvLike.setText(format.format(photo.likesCount) + " likes");
+        viewHolder.tvLike.setText(format.format(photo.likesCount) + " " + getContext().getString(R.string.likes));
 
         viewHolder.ivPhoto.setImageResource(0);//clears if image view was recycled
         Picasso.with(getContext())
