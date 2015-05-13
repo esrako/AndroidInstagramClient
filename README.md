@@ -15,6 +15,7 @@ Functionalities:
 * [x] Advanced: Display a nice default placeholder graphic for each image during loading
 * [x] Advanced: Usage of ViewHolder pattern to improve the ListView performance, and usage of DateUtils to show relative timestamp of the photo.
 * [x] Advanced: Improve the user interface through styling and coloring. Includes showing hashtags, usernames and web urls as autolinks in caption text by using Linkify, removing action bar from top, using transparent top layout. 
+* [x] Optional: Toast a message in case of network failure or connection to Instagram fails
 
 Example layout of an Instagram Photo in this app:
 
